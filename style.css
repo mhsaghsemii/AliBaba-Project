@@ -1,0 +1,905 @@
+body * {
+  font-family: RaviRegular;
+  color: #4b5259;
+  text-decoration: none;
+}
+
+body svg {
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: RaviRegular;
+  src: url(fonts/RaviRegular.otf);
+}
+
+/* header css - start */
+#Header {
+  width: 100%;
+  height: 49px;
+  margin: 0 auto;
+  box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.08);
+}
+
+#Header-Container {
+  width: 1350px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* left header start */
+#Left-Header {
+  width: 600px;
+  height: 60px;
+  display: inline-block;
+}
+
+#Left-Header * {
+  vertical-align: middle;
+}
+
+#Left-Header * {
+  display: inline-block;
+  margin: 4px;
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+}
+
+#MyTrip {
+  margin-left: 30px;
+}
+
+#Support {
+  margin-left: 30px;
+}
+/* left header end */
+/* right header start */
+#Right-Header {
+  width: 730px;
+  height: 60px;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+}
+
+#Menu {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 163px;
+}
+
+#Menu * {
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+  margin-left: 10px;
+  height: 28px;
+  vertical-align: middle;
+}
+
+.Object {
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
+}
+
+#Right-Header img {
+  position: absolute;
+  right: 20px;
+  top: -6px;
+}
+/* right header end7 */
+/* header css - end */
+
+/* main - start */
+#Main-Container {
+  position: relative;
+}
+
+#Flight-pic img {
+  display: flex;
+  width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* div products css - start */
+#Products {
+  width: 1250px;
+  height: 200px;
+  border: 1px lightgray solid;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: 20;
+  padding: 0.2rem 0 2.25rem;
+  margin-top: -90px;
+}
+/* srvices div css - start */
+.Services-Icon {
+  position: absolute;
+  right: 23px;
+  top: -40px;
+}
+
+.Transport-Icon {
+  position: absolute;
+  top: -40px;
+  right: -4px;
+}
+
+#Bus-Icon {
+  position: absolute;
+  top: -40px;
+  right: 6px;
+}
+
+#Services {
+  border-bottom: 1px lightgray solid;
+  width: 1250px;
+  height: 80px;
+  border-radius: 10px 10px 0 0;
+  padding-top: 0;
+}
+
+#Services * {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(89, 89, 89);
+  display: inline-block;
+  margin: 23px auto;
+  margin-left: 52px;
+  font-size: 17px;
+}
+
+.Items {
+  position: relative;
+}
+/* srvices div css - end */
+/* Details div css - start  */
+#Details button {
+  display: inline-block;
+  position: absolute;
+  top: 110px;
+  right: 40px;
+  width: 90px;
+  height: 30px;
+  border-radius: 99px;
+  background-color: white;
+  border: 1px lightgray solid;
+}
+
+#Flash {
+  rotate: 90deg;
+  vertical-align: middle;
+  margin-top: -1px;
+  margin-left: -6px;
+}
+
+#Properties {
+  width: 1250px;
+  height: 98px;
+  position: absolute;
+  top: 145px;
+  right: 0px;
+}
+
+#Properties input {
+  text-align: right;
+  font-size: 16px;
+}
+
+#Properties button {
+  font-size: 18px;
+}
+
+#Properties * {
+  display: inline-block;
+}
+
+#Search {
+  width: 200px;
+  height: 58px;
+  position: absolute;
+  left: 40px;
+}
+
+#Search button {
+  position: absolute;
+  display: inline-block;
+  top: 6px;
+  width: 200px;
+  height: 45px;
+  right: 4px;
+  background-color: #fdb713;
+  border: none;
+  border-radius: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+#Date {
+  width: 300px;
+  height: 58px;
+  position: absolute;
+  right: 500px;
+}
+
+#To-Go {
+  width: 140.5px;
+  height: 45px;
+  position: absolute;
+  right: 4px;
+  border: 1px lightgray solid;
+  border-radius: 0 8px 8px 0;
+  top: 6px;
+}
+
+#To-Return {
+  width: 140.5px;
+  height: 45px;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  border: 1px lightgray solid;
+  border-radius: 8px 0 0 8px;
+}
+
+#Num {
+  width: 200px;
+  height: 58px;
+  position: absolute;
+  right: 805px;
+}
+
+#Travelers {
+  width: 193px;
+  height: 45px;
+  position: absolute;
+  top: 6px;
+  border: 1px lightgray solid;
+  border-radius: 8px;
+  direction: rtl;
+}
+
+#Aim {
+  width: 457px;
+  height: 58px;
+  position: absolute;
+  right: 40px;
+}
+
+#Aim svg {
+  width: 15px;
+  height: 15px;
+  padding-top: 7px;
+}
+
+#Aim button {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 14px;
+  z-index: 20;
+  right: 212px;
+}
+
+#Orgin {
+  width: 219px;
+  height: 45px;
+  top: 6px;
+  position: absolute;
+  right: 4px;
+  border: 1px lightgray solid;
+  border-radius: 0 8px 8px 0;
+}
+
+#Destination {
+  width: 219px;
+  height: 45px;
+  position: absolute;
+  left: 4px;
+  top: 6px;
+  border: 1px lightgray solid;
+  border-radius: 8px 0 0 8px;
+}
+/* Details div css - end  */
+/* div products css - end */
+
+/* more div - start */
+#More {
+  width: 1250px;
+  height: 100px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: 20;
+  padding: 0.2rem 0 2.25rem;
+}
+
+#More h3 {
+  position: absolute;
+  right: 0;
+  margin-top: 0;
+  color: black;
+}
+
+#Coverage {
+  width: 405px;
+  height: 75px;
+  border: 1px lightgray solid;
+  position: absolute;
+  right: 0;
+  top: 48px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#Coverage img {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+#Coverage a {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  right: 85px;
+}
+
+#Visa {
+  width: 405px;
+  height: 75px;
+  border: 1px lightgray solid;
+  position: absolute;
+  right: 422px;
+  top: 48px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#Visa img {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+#Visa a {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  right: 85px;
+}
+
+#Group-Tour {
+  width: 405px;
+  height: 75px;
+  border: 1px lightgray solid;
+  position: absolute;
+  left: 0;
+  top: 48px;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#Group-Tour img {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+#Group-Tour a {
+  text-decoration: none;
+  position: absolute;
+  top: 28px;
+  right: 85px;
+}
+
+.Next {
+  color: lightgray;
+  position: absolute;
+  left: 15px;
+  top: 30px;
+}
+
+#New {
+  background-color: #84e199;
+  border-radius: 99px;
+  width: 42px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  left: 45px;
+  top: 28px;
+}
+
+#New span {
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 0.5px;
+  right: 10px;
+}
+
+/* more div - end */
+
+/* sliders div - start */
+#Sliders {
+  width: 1250px;
+  height: 200px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: 20;
+  padding: 0.2rem 0 2.25rem;
+}
+
+#Safir {
+  width: 620px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#Golden-Hotel {
+  width: 620px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#sliders-btn {
+  display: inline-block;
+  width: 100px;
+  height: 23px;
+  position: absolute;
+  top: 215px;
+  right: 565px;
+}
+
+#sliders-btn button {
+  background-color: #e2e6e9;
+  border: none;
+  border-radius: 100px;
+  width: 9px;
+  height: 9px;
+  border-radius: 100px;
+  margin-left: 2px;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* sliders div - start */
+
+/* application div - start */
+#Application {
+  width: 1250px;
+  height: 260px;
+  border: 1px lightgray solid;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-bottom: 2rem;
+  z-index: 20;
+  padding: 0.2rem 0 2.25rem;
+}
+
+#QRcode {
+  position: absolute;
+  right: 100px;
+  top: 57px;
+}
+
+#Application * {
+  text-align: right;
+}
+
+#Application h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  color: black;
+}
+
+#Application span {
+  color: black;
+  margin-top: 0;
+  font-size: 19px;
+}
+
+#App {
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  right: 315px;
+  top: 50px;
+}
+
+#App-Link {
+  height: 88px;
+  width: 255px;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+}
+
+#App-Link a {
+  position: absolute;
+  top: 55px;
+  right: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+#Download svg {
+  position: absolute;
+  top: 58px;
+  right: 188px;
+}
+
+#Download * {
+  color: #0077db;
+}
+
+#Download a {
+  color: #0077db;
+  font-size: 17px;
+}
+
+#Version {
+  height: 30px;
+  width: 400px;
+  position: absolute;
+  top: 118px;
+  right: 5px;
+  display: inline-block;
+}
+
+#Version img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 9px;
+  margin-left: 3px;
+}
+
+#Version * {
+  vertical-align: middle;
+}
+
+#Version span {
+  font-size: 12px;
+  color: #959ea6;
+}
+
+#App-pic {
+  width: 339px;
+  height: 294px;
+  position: absolute;
+  left: 100px;
+}
+
+/* application div - end */
+
+/* div class= Main-Question - start */
+/* div logo css - start */
+#logo {
+  text-align: right;
+  margin-top: 10px;
+}
+
+#logo h2 {
+  color: black;
+  font-size: 25px;
+}
+/* div logo css - end */
+
+.Question-M div:last-of-type {
+  border-bottom: none;
+}
+.Main-Question {
+  width: 1250px;
+  height: 600px;
+  background-color: white;
+  border-radius: 8px;
+  /* display: flex; */
+  margin: 0 auto;
+
+  /* position: relative; */
+  margin-bottom: 2rem;
+  /* z-index: 20; */
+  padding: 0.2rem 0 2.25;
+}
+
+/* guestion div box - start */
+.Question {
+  margin-top: 10px;
+  width: 1250px;
+  display: block;
+  text-align: right;
+  margin-bottom: 10%;
+  border-top: 1px solid lightgray;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  border-radius: 8px;
+}
+.Question-M {
+  border-bottom: 1px solid lightgray;
+  padding: 20px 0;
+}
+.Question-M * {
+  vertical-align: middle;
+  font-weight: bold;
+}
+.Question-M svg:first-of-type {
+  float: left;
+  margin: 11px 0 0 22px;
+  opacity: 0.5;
+}
+.Question-M svg:last-of-type {
+  fill: #17a2b8;
+  background-color: #e8f9fc;
+  padding: 0 5px;
+  border-radius: 35px;
+  width: 22px;
+  margin: 0 9px;
+}
+
+/* guestion div box - end */
+
+/* About-AliBaba div - start */
+#About-AliBaba {
+  width: 1250px;
+  height: 1340px;
+  border-radius: 8px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  padding: 0.2rem 0 2.25rem;
+  direction: rtl;
+}
+
+#About-AliBaba h2 {
+  color: black;
+  font-size: 18px;
+}
+
+#About-AliBaba * {
+  margin-bottom: 30px;
+}
+
+#Safety {
+  position: absolute;
+  right: 0;
+}
+
+.About-Top {
+  width: 1250px;
+  height: 460px;
+}
+
+#About-Bot {
+  width: 1250px;
+  height: 910px;
+  position: absolute;
+  top: 470px;
+  text-align: right;
+}
+
+.About-Top img {
+  width: 500px;
+  height: 360px;
+  position: absolute;
+  top: 75px;
+  left: 0;
+}
+
+#Top-Right {
+  display: inline-block;
+  width: 550px;
+  height: 460px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+#Top-Right h2 {
+  margin-bottom: 40px;
+}
+
+#About-AliBaba a {
+  color: #0077db;
+}
+/* About-AliBaba div - end */
+/* div class= Main-Question - end */
+/* main - end */
+
+/* footer - start */
+#Footer {
+  width: 100%;
+  height: 610px;
+  border-top: 1px lightgray solid;
+}
+
+.container {
+  width: 1250px;
+  margin: 0 auto;
+  position: relative;
+  height: 610px;
+}
+
+/* footer- top div - start */
+.footer-top {
+  text-align: center;
+  position: relative;
+  right: 125px;
+}
+
+.footer-top-l,
+.footer-top-m,
+.footer-top-r {
+  display: inline-block;
+  width: 33%;
+  text-align: right;
+  height: 0;
+  vertical-align: middle;
+}
+.footer-top-l img,
+.footer-top-m img,
+.footer-top-r img {
+  position: relative;
+  left: 100px;
+  width: 89px;
+  height: 89px;
+  bottom: 100px;
+}
+.footer-top-m,
+.footer-top-r {
+  position: relative;
+  top: 1px;
+}
+
+/* footer- top div - end */
+/* footer main div - start */
+.footer-main-l {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+}
+
+.footer-main-l img {
+  position: relative;
+  top: 10px;
+}
+.footer-main-img * {
+  display: inline-block;
+  width: 87px;
+  position: relative;
+  right: 5px;
+  bottom: 30px;
+}
+.footer-main {
+  display: inline-block;
+  position: relative;
+  top: 180px;
+  border-top: solid 1px #e2e6e9;
+  background-color: #fff;
+  border-bottom: solid 1px #e2e6e9;
+}
+
+.footer-main h4 {
+  color: black;
+}
+.footer-main-ll {
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  top: 39px;
+  left: 50px;
+}
+.footer-main-r {
+  display: inline-block;
+  position: relative;
+  bottom: 110px;
+  left: 100px;
+}
+.footer-main-ll a,
+.footer-main-c a,
+.footer-main-rr a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+.footer-main-c {
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  top: 66px;
+  left: 160px;
+}
+.footer-main-rr {
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  left: 264px;
+  top: 93px;
+}
+
+.footer-main-bottom a {
+  color: #6c7680;
+  text-decoration: none;
+  text-align: right;
+  margin: 0 10px;
+}
+
+.footer-main-bottom span {
+  display: inline-block;
+  margin: 0 5px;
+  vertical-align: middle;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #b4bcc4;
+}
+.footer-main-bottom {
+  display: inline-block;
+  position: relative;
+  left: 658px;
+  bottom: 15px;
+  font-size: 12px;
+}
+.footer-main-rr * {
+  text-align: right;
+}
+.footer-main-buttom-button * {
+  --button-size: initial;
+  color: #0077db;
+  border-color: transparent;
+  box-shadow: none;
+  display: inline-block;
+  background-color: white;
+  font-size: 12px;
+}
+.footer-main-buttom-button {
+  position: relative;
+  bottom: 10px;
+  text-align: right;
+}
+
+/* footer main div - end */
+/* footer bottom div - start */
+.footer-bottom-l {
+  position: relative;
+  top: 190px;
+  display: inline-block;
+}
+
+.footer-bottom-l * {
+  vertical-align: middle;
+  color: #6c7680;
+  margin-left: 10px;
+}
+.footer-bottom-r {
+  position: relative;
+  top: 148px;
+  text-align: right;
+  font-size: 12px;
+}
+/* footer bottom div - end */
+/* footer - end */
